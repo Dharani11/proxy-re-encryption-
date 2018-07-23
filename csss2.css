@@ -1,0 +1,48 @@
+
+.drop_menu {
+background:grey;
+padding:0;
+margin:0;
+list-style-type:none;
+height:43px;
+
+}
+.drop_menu li { float:left; }
+.drop_menu li a {
+padding:9px 60px;
+display:block;
+color:orange;
+text-decoration:none;
+font:25px arial, verdana, sans-serif;
+}
+ 
+/* Submenu */
+.drop_menu ul {
+position:absolute;
+left:-8888px;
+top:-8888px;
+list-style-type:none;
+}
+.drop_menu li:hover { position:relative; background:#005555; }
+.drop_menu li:hover ul {
+left:0px;
+top:42px;
+background:grey;
+padding:0px;
+}
+
+
+.drop_menu li:hover ul li a {
+display:block;
+font-size:22px;
+background-color:grey;
+width:%;
+height:25%;
+}
+.drop_menu li:hover ul li a:hover { background:#005555; }
+
+.signup{
+			
+			margin-left:500px;
+			
+		}
