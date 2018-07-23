@@ -1,0 +1,42 @@
+input, select, textarea {
+		color: #888;
+		font-family: "Lato", sans-serif;
+		font-size: 8pt;
+		font-weight: 350;
+		line-height: 1.75em;
+    border-radius: 5px;
+	}
+
+	
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button {
+		background-color: #989898;
+		border-radius: 5px;
+		border: 0;
+		color: #ffffff !important;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 700;
+		height: 1.75em;
+		line-height: 1.75em;
+		padding: 0 1.5em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+		font-size: 10pt;
+	}
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		.button:hover {
+			background-color: #a5a5a5;
+			color: #ffffff !important;
+		}
+		.signup{
+			
+			margin-left:500px;
+			
+		}
+
