@@ -1,0 +1,12 @@
+# proxy-re-encryption-
+proxy re encryption in cloud storage devices project based on JAVA,HTML,CSS and java script for secure data storage using encryption and decryption and proxy re-encryption.
+Now days the IT sector peoples are willing to store their data into Cloud Storage. Because CSP (Cloud Service Provider) providing their infrastructure for accessing the data from Cloud. Due to which Clients can be reducing the cost of maintains the Server. But Cloud Storage is like a third party which means it is a semi trust (Honest-But- Curiosity), so that there is chances of lack of security. To overcome this they will use the Cryptography functions for security. In Cryptography, we have two types,
+Symmetric Encryption:
+In this crypto technique, System can generate one secure key, using this key the Data Owner can encrypt the Data and store in cloud. When Data User wants to access that data from the cloud then Data Owner should be sent the secure key to Data User for decryption of that Data. Which means here for encryption and decryption we are using same key, so if any attacker compromised (knowing) the key then there is a chances to lack of security.
+Asymmetric Encryption:
+In this crypto technique, System can generate one Two keys like we used to call Key Pair which means it generates Public key (PK) and Private Key (SK). Here using of Public key we can encrypt the data as well as we can decrypt the data with help of Private key.  Which means here the system can encrypt with one key but decrypting with another key. So that using this crypto technique we can prevent the malicious attacks. But while decrypt data there is a chance to get the knowledge of data by CSP.
+After addressing these two drawbacks, we proposed a new technique which name is a Proxy-Re-Encryption technique for Secure Cloud Storage. In this process Data Owner will encrypt the data with public key and while sharing this data to Data User then Data Owner generate a Re-Encryption key and using this key again Data Owner can Re-Encrypting the encrypted data and share to Data User. Finally Data User can decrypt the Re-Encrypted data with help of the User’s Private key, here after decrypt the data there is a no chances of disclose the data by CSP. Because the Cloud still maintain Cipher text only.
+Technology                 :           Java (1.7/1.8)
+Web Technologies     	:           Html, Html-5, JavaScript, CSS.
+Web Server                 :           Tomcat 7/8
+Server side Lang	:	J2EE
